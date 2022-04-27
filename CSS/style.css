@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap");
+/* font-family: 'Playfair Display', serif;  */
+/* font-family: 'Ubuntu', sans-serif;  */
+* {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #f5f5f5; */
+}
+body {
+  background-color: rgb(204, 186, 164);
+  font-family: "Playfair Display", serif;
+}
+/* header part css start */
+header {
+  margin: none;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 50px; */
+  padding: 20px 20px;
+}
+header h1 {
+  background: transparent;
+}
+.logo {
+  background: transparent;
+}
+nav {
+  width: 20%;
+  background: transparent;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background: transparent;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+/* header part css ends */
+
+/* footer part css starts */
+footer {
+  padding: 40px 0px;
+  margin-top: 500px;
+}
+footer h1 {
+  background: transparent;
+  text-align: center;
+}
+/* footer part css ends */

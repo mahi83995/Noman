@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/login.css" />
+    <link rel="stylesheet" href="../CSS/registration.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <h1>Registration</h1>
+        <div class="userrole">
+          <p>Select Role</p>
+          <select name="role" id="">
+            <option value="deployer">Deployer</option>
+            <option value="contributor">Contributor</option>
+            <option value="user">User</option>
+          </select>
+        </div>
+        <input type="text" name="name" id="" placeholder="Name" />
+        <input type="email" name="email" id="" placeholder="Email" />
+        <input type="password" name="password" id="" placeholder="Password" />
+        <input
+          type="password"
+          name="password"
+          id=""
+          placeholder="Confirm Password"
+        />
+        <button>Register</button>
+      </form>
+      <p class="register">
+        Already have an account? <a href="login.html">Login</a>
+      </p>
+    </div>
+  </body>
+</html>

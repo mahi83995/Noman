@@ -1,0 +1,31 @@
+form .precision {
+  display: flex;
+  width: auto;
+}
+.inner-precision {
+  width: 125px !important;
+  margin: 10px 10px !important;
+}
+form .recall {
+  display: flex;
+  width: auto;
+}
+form .f1 {
+  display: flex;
+  width: auto;
+}
+.file {
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  width: 100%;
+  margin-left: 80px;
+}
+.file .choose {
+  font-weight: bold;
+}
+.file .input-file {
+  font-weight: bold;
+}
