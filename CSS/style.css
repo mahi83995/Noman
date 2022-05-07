@@ -53,3 +53,26 @@ footer h1 {
   text-align: center;
 }
 /* footer part css ends */
+.home {
+  width: auto;
+  height: auto;
+  background: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.home h1 {
+  color: blue;
+  text-align: center;
+}
+.home-button {
+  margin-top: 50px;
+}
+.home-button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
